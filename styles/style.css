@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 /*-------------------
-   Common Styles 
+   Common tyles 
  -------------------*/
 body {
     margin: 0 auto;
@@ -22,7 +22,7 @@ body {
 }
 .main-page {
     display: flex;
-    background-color: #161616;
+    background-color: #8D3DAF;
     height: 613px;
     width: 1380px;
     justify-content: space-evenly;
@@ -52,7 +52,7 @@ body {
     color: white;
     font-weight: 400;
     font-size: 20px;
-    background-color: red;
+    background-color:#4DD637;
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -83,7 +83,7 @@ body {
     max-width: 120px;
     height: 250px;
     max-height: 250px;
-    background-color: #161616;
+    background-color: #8D3DAF;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 10px;
@@ -98,7 +98,7 @@ body {
     border-radius: 10px;
 }
 .blog-nav > .highlighted-nav {
-    background-color: #dd0000;
+    background-color: #4DD637;
     color: #ffffff;
 }
 .blogs {
@@ -124,7 +124,7 @@ Footer Section Styles
 -----------------------*/
 .footer-section {
     text-align: center;
-    background-color: #161616;
+    background-color: #8D3DAF;
     margin-top: 6em;
 }
 .footer-container {
