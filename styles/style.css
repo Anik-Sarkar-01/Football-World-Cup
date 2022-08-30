@@ -138,6 +138,25 @@ body {
     column-gap: 7px;
 }
 
+/*--------------------
+ View All button 
+ ---------------------*/
+ .view-all{
+    margin-top: 2em;
+    text-align: center;
+ }
+ .view-all > .view-all-button{
+    border: none;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    background-color:#4DD637;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: none;
+ }
+
 /*-------------------- 
 Footer Section Styles 
 -----------------------*/
@@ -304,6 +323,9 @@ Footer Section Styles
     }
     .blogs {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .view-all > .view-all-button{
+        display: inline-block;
     }
     .footer-options{
         column-gap: 1em;
