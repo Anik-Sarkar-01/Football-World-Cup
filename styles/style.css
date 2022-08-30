@@ -1,19 +1,25 @@
-/* font */
+/*--------------- 
+   Google Font
+----------------- */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-/* common styles */
+/*-------------------
+   Common Styles 
+ -------------------*/
 body {
     margin: 0 auto;
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
+
+/*------------------
+ Home Page Styles
+ ------------------ */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-/* main-page styles */
 .main-page {
     display: flex;
     background-color: #161616;
@@ -59,7 +65,9 @@ body {
     padding-top: 2.5em;
 }
 
-/* blog-pages-styles */
+/*----------------
+  Blog Page Styles
+-------------------*/
 .blog-section {
     margin-top: 2em;
     display: flex;
@@ -110,6 +118,10 @@ body {
     align-items: center;
     column-gap: 7px;
 }
+
+/*-------------------- 
+Footer Section Styles 
+-----------------------*/
 .footer-section {
     text-align: center;
     background-color: #161616;
@@ -152,7 +164,10 @@ body {
 /*---------------- 
     media-query 
 ------------------*/
-/* mobile-devices */
+
+/*------------------
+ Mobile-Devices
+ -------------------*/
 @media only screen and (max-width: 688px) {
     .main-page {
         width: 92%;
@@ -218,7 +233,9 @@ body {
     }
 }
 
-/* tablet devices */
+/*----------------
+ tablet devices
+ ------------------- */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
     .container {
         display: flex;
