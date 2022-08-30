@@ -216,5 +216,7 @@ body {
         flex-direction: column;
         row-gap: 2em;
     }
-    
+    .social-icon{
+        margin-right: 1em;
+    }
 }
