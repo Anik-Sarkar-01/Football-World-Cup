@@ -60,6 +60,25 @@ body {
     padding-top: 2.5em;
 }
 
+/*--------------- 
+    Animation
+------------------ */
+.main-page:hover .main-page-image img{
+    animation: zoomin 2s linear 1;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes zoomin{
+    0%{
+        transform: scale(0.5);
+        visibility: visible;
+    }
+    100%{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
 /*------------------------- 
 Upcoming Match Page Styles
 -------------------------- */
