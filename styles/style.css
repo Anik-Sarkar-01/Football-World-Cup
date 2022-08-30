@@ -76,7 +76,7 @@ body {
     justify-content: space-evenly;
     border-radius: 10px;
 }
-.blog-nav > a{
+.blog-nav > a {
     text-align: center;
     text-decoration: none;
     background-color: #ffffff;
@@ -85,8 +85,8 @@ body {
     padding: 10px 15px;
     border-radius: 10px;
 }
-.blog-nav > .highlighted-nav{
-    background-color: #DD0000;
+.blog-nav > .highlighted-nav {
+    background-color: #dd0000;
     color: #ffffff;
 }
 .blogs {
@@ -99,6 +99,12 @@ body {
 .article {
     border: 1px solid #e8e8e8;
     border-radius: 12px;
+}
+.blog-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 7px;
 }
 .footer-section {
     text-align: center;
